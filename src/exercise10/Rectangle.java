@@ -36,7 +36,6 @@ public class Rectangle extends Figure {
             return false;
         }
     }
-
     @Override
     public boolean containsClick(Point click) {
         double clickX = click.getX();
